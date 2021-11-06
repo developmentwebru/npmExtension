@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "esnext",
+      "jsx": "react",
+      "strict": true,
+      "esModuleInterop": true,
+      "lib": [
+        "dom",
+        "es2015"
+      ],
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "declaration": true,
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": ["node_modules", "dist", "./src/stories"]
+  }
+  
